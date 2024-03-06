@@ -5,8 +5,8 @@ import tkinter as tk
 # Connect to the MySQL database
 cnx = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="Kalisql24",
+    user="yourUsername",
+    password="yourPassword",
     database="shoppingList"
 )
 # create the main window
